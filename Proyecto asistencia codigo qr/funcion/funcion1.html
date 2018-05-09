@@ -1,0 +1,90 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link href="../estilos/estilos.css" rel="stylesheet">
+	<script src="../jquery/jquery-latest.js"></script>
+	<script src="../jquery/menu.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>
+					<a id=iconomenu><img src="../imagenes/logo2.png"img style="width:60px; height:50px" ></a>
+				</li>
+				<li id="titulo">
+					<a><h1>Asistencia QR<h1></a>
+				</li>
+				<li id="buscar">
+					<a><h10>Sign Up | Sign In</h10></a>
+				</li>
+				</ul>
+		</nav>
+
+		<div id="contenedor">
+			<ul id="menu">
+				<li class="menu">
+					<a class="itemmenu" href="../pagina inicio/inicio.html">Inicio</a>
+				</li >
+        <li class="menu">
+        <a class="itemmenu" href="../index.html">¿Qué es?</a>
+      </li>
+				<li class="menu">
+					<a class="itemmenu" href="../funcion/funcion1.html">¿Cómo funciona?</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu" href="../Rsegistro/registro.html">Registro</a>
+				</li>
+				<li class="menu">
+					<a class="itemmenu" href="index.html">Descargas</a>
+				</li>
+			</ul>
+</div>
+<section id="principal">
+
+	<div id="foto2">
+			<img style="width:500px; height:300px" src="../imagenes/lista1.jpg">
+	</div>
+
+	<div id="texto2">
+					<p class="txt2"> Una vez instalada la aplicación:<br>
+            La iniciamos con el código QR a la vista.<br>
+            Apuntamos nuestro smartphone hacia el código.<br>
+            Se identificara automáticamente la asistencia.
+
+          </p>
+	</div>
+
+
+
+
+</section>
+
+	<script>
+	var canvas = document.getElementById('dibujo'); /*variable que ocupa un lugar en la memoria ram, guarda un objeto de tipo canvas por su id, el id tiene q ser el mismo q en la etiqueta html*/
+	var context = canvas.getContext('2d'); /*genera el contexto, es donde vamos a dibujar todas las lineas curvas y circunferencias*/
+
+		context.beginPath(); /*quiere decir que va a comenzar con nuestro dibujito*/
+		context.moveTo(0,1); /*mover el lapiz*/
+		context.lineTo(0,4); /*dibujar la linea*/
+		context.lineTo(16,4);
+		context.lineTo(16,1);
+		context.moveTo(0,7);
+		context.lineTo(0,9);
+		context.lineTo(16,9);
+		context.lineTo(16,7);
+		context.moveTo(0,13);
+		context.lineTo(0,16);
+		context.lineTo(16,16);
+		context.lineTo(16,13);
+		context.closePath(); /*para cerrar el dibujo*/
+		context.lineWidth = 2; /*grosor dela linea*/
+		context.strokeStyle = "white"; /*es el color de las lineas del perimetro de la figura*/
+		context.stroke(); /*cierra el comando*/
+		context.fillStyle = "rgba(255, 255, 255,1.0)"; /*relleno de la figura*/
+		context.fill();	/*cierra el comando*/
+
+
+	</script>
+
+	</body>
+</html>

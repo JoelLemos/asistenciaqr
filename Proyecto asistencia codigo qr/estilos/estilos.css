@@ -1,0 +1,266 @@
+body{
+margin:0px;
+background-image: url("../imagenes/fondo1.jpg");
+background-attachment:fixed;
+background-size: 100% 100%;
+background-repeat:none
+}
+
+nav{
+	position:fixed;
+	height:65px;
+	width:100%;
+}
+
+h10{
+	font-size: 15px;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	background-color: #34495e;
+	display:block;
+	height:65px;
+}
+img{
+	margin-left: 10px;
+}
+
+li{
+	float:left;
+	width:20%;
+	list-style:none;
+	height:50px;
+	display:block;
+}
+#titulo{
+	width:60%;
+}
+
+a{
+	display:block;
+	width:100%;
+	text-align: center;
+	color:white;
+	height:65px;
+	font-size: 30px;
+}
+#iconomenu{
+
+	padding-top:16px;
+
+}
+
+canvas{
+	height:30px;
+	width:30px;
+}
+#principal{
+	position: fixed;
+	top: 100px;
+	width: 100%;
+	height: 700px;
+}
+#menu{
+
+	background:#34495e;
+	height:100%;
+	width:95%;
+	position: fixed;
+	left:-100%;
+	top:65px;
+	z-index: 10;
+}
+#contenedor{
+	top:40px;
+	height:100%;
+
+}
+#foto{
+	display: block;
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	padding-left:30%;
+	padding-right: 30%;
+}
+
+#foto2{
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	padding-left:30%;
+	padding-right: 30%;
+}
+#texto2{
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 150px;
+
+}
+#texto{
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 150px;
+
+}
+.txt1{
+	font-size: 25px;
+	text-align: center;
+}
+.txt2{
+	font-size: 25px;
+	text-align: center;
+}
+article{
+	width:100%;
+	padding-top:50px;
+}
+h1{
+		height:35px;
+		font-size:35px;
+		padding-top:10px;
+		padding-bottom:20px;
+		margin:0px;
+		font-family: verdana;
+	}
+h2{
+	font-family: Tahoma;
+	font-size:40px;
+	color:black;
+	padding:15px;
+	margin:0px;
+	text-align:center;
+}
+
+p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 20px;
+	height: 350px;
+	font-family: monospace;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	font-weight: bold;
+	text-shadow: -2px -1px 1px #000;
+}
+.menu{
+	float:none;
+	width:100%;
+	/*border-width:6px 0px 6px 0px;
+	border-style: solid;*/
+	/*border-color:rgba(0,0,0,0.5);*/
+	height:auto;
+	/*background-color:rgba(200,200,200,1);*/
+	margin:3%;
+	width:97%;
+}
+.itemmenu{
+	font-size:150%;
+	display:block;
+	height:auto;
+}
+@media screen and (max-width:626px ){
+	nav{
+		height:100px;
+	}
+	ul{
+		height:100px;
+	}
+	li{
+		height:100px;
+	}
+	/*****título*****/
+	h1{
+		height:40px;
+		font-size:30px;
+		padding-top:30px;
+		padding-bottom:40px;
+	}
+	a{
+		height:100px;
+		padding-top:0px;
+		padding-bottom:0px;
+
+	}
+	#iconomenu{
+		padding-top:35px;
+		padding-bottom:35px;
+		height:30px;
+	}
+	#menu{
+		top:100px;
+	}
+}
+@media screen and (min-width:626px ) and (max-width:980px){
+	nav{
+		height:100px;
+	}
+	ul{
+		height:100px;
+	}
+	li{
+		height:100px;
+	}
+	/*****título*****/
+	h1{
+		height:40px;
+		font-size:40px;
+		padding-top:25px;
+		padding-bottom:35px;
+	}
+	a{
+		height:100px;
+		padding-top:0px;
+		padding-bottom:0px;
+		font-size:40px;
+	}
+	#iconomenu{
+		padding-top: 30px;
+		padding-bottom:30px;
+		height:40px;
+	}
+	#dibujo{
+		height:40px;
+		width:40px;
+	}
+	#menu{
+		top:100px;
+	}
+	.itemmenu{
+		font-size:200%;
+	}
+}
+/** pagina de registro **/
+table {
+
+font: 75%/1.5em arial, geneva, sans-serif;
+border-collapse: collapse;
+
+}
+h7{
+padding-left: 45%;
+color: white;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+	text-shadow: -2px -1px 1px #000;
+}
+
+td {
+border-bottom: 8px solid #fff;
+border-left: 1px dotted #fff;
+vertical-align: top;
+padding: 20px;
+border-style:groove;
+}
+
+tr 	{
+background: #b6e5ff;
+}
